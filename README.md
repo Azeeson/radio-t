@@ -1,4 +1,4 @@
-# radio-t
+# Radio-T website
 
 Hugo version of https://radio-t.com/
 
