@@ -1,4 +1,4 @@
-baseurl = "http://demo.ax/"
+baseurl = "http://radio-t.azeeson.com/"
 languageCode = "en-us"
 title = "Радио-Т Подкаст"
 theme = "radio-t"
