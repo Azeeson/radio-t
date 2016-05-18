@@ -3,6 +3,7 @@
 
 <div id="main">
   <div id="content">
+
     <div class="blog-index">
       {{ range .Paginator.Pages }}
         {{ .Render "li"}}
@@ -16,6 +17,7 @@
 
     </div>
     {{ partial "aside.html" . }}
+    
   </div>
 </div>
 

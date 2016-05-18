@@ -5,6 +5,7 @@ var disqus_shortname = '{{ .Site.DisqusShortname }}';
 {{ if .Params.comments }}
 // var disqus_developer = 1;
 var disqus_identifier = {{ .Permalink }};
+var disqus_identifier = "http://www.radio-t.com" + {{ .RelPermalink }};
 // var disqus_url = {{ .Permalink }};
 var disqus_script = 'embed.js';
 {{else}}

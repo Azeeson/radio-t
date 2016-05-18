@@ -3,6 +3,7 @@
 
     <div id="main">
       <div id="content">
+
         <div class="blog-index">
           {{ range .Paginator.Pages }}
             {{ if isset .Params "categories" }}
@@ -22,6 +23,7 @@
 
         </div>
         {{ partial "aside.html" . }}
+        
       </div>
     </div>
 
